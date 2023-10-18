@@ -1,0 +1,62 @@
+.main-register {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+
+        gap: 5px;
+        
+        input {
+            padding: 4px 20px;
+            border-radius: 4px;
+            border: 1px solid #9095A0FF;
+            font-size: 18px;
+            font-weight: 400;
+            outline: none;
+
+            &:hover {
+                color: #BCC1CAFF;
+                border-color: #6E7787FF;
+            }
+
+            &:focus {
+                color: #BCC1CAFF;
+                border-color: #3EBDE0FF;
+            }
+        }
+
+        label {
+            font-size: 18px;
+            font-weight: 400;
+            color: #171A1FFF;
+
+        }
+
+        button [type='submit'] {
+            background-color: #3EBDE0FF;
+            padding: 20px;
+            border: none;
+            border-radius: 4px;
+            color: #FFFFFFFF;
+            font-size: 18px;
+
+
+            &:hover {
+                color: #FFFFFFFF;
+                background-color: #1F9EC1FF;
+            }
+        }
+    }
+
+}
